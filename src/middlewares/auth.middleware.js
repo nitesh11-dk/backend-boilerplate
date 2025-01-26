@@ -1,12 +1,15 @@
 import jwt from 'jsonwebtoken';
 import User from '../src/Models/User.js.js';
 
+
+
+// this  authenticatation is based on the  we we send AUth with token in header in the request
 export const AuthenticateUser = async (req, res, next) => {
     const authHeader = req.header('Auth');
     const token = authHeader;
 
     if (!token) {
-        return res.status(401).json({ message: "You need to Login First" });
+        return res.status(401).json({ message: "You are not authenticated " });
     }
 
     try {
