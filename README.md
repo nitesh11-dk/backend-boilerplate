@@ -75,7 +75,6 @@ backend-boilerplate/
 
 Made with ❤️ by **NITESH-DK**
 🔗 [Connect on LinkedIn](https://www.linkedin.com/in/nitesh-dk)
-🔗 [View GitHub Repo](https://github.com/your-repo-link)
 
 ---
 
